@@ -1,10 +1,10 @@
-local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/VoxxW/voxxify/refs/heads/main/UILIB"))()
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
 local GUI = Mercury:Create{
     Name = "Voxxify V2",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Dark,
-    Link = "https://voxxify.com"
+    Link = "https://voxxify.v2"
 }
 
 GUI:Credit{
@@ -247,7 +247,7 @@ end
 	["content"] = " ", 
 	["embeds"] = {{
 		["title"] = "Voxxify V2", 
-		["color"] = 6600CC,
+		["color"] = 0xffffff,
 		["footer"] = { -- Again, has to be stored as a table.
 			 ["text"] = "Voxxify V2";
 		 
